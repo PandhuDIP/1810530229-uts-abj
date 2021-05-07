@@ -1,0 +1,265 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 05:48 ?        00:00:06 /sbin/init
+root           2       0  0 05:48 ?        00:00:00 [kthreadd]
+root           3       2  0 05:48 ?        00:00:00 [rcu_gp]
+root           4       2  0 05:48 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 05:48 ?        00:00:00 [kworker/0:0H-kblockd]
+root           8       2  0 05:48 ?        00:00:00 [mm_percpu_wq]
+root           9       2  0 05:48 ?        00:00:00 [ksoftirqd/0]
+root          10       2  0 05:48 ?        00:00:06 [rcu_sched]
+root          11       2  0 05:48 ?        00:00:00 [migration/0]
+root          12       2  0 05:48 ?        00:00:00 [idle_inject/0]
+root          14       2  0 05:48 ?        00:00:00 [cpuhp/0]
+root          15       2  0 05:48 ?        00:00:00 [cpuhp/1]
+root          16       2  0 05:48 ?        00:00:00 [idle_inject/1]
+root          17       2  0 05:48 ?        00:00:01 [migration/1]
+root          18       2  0 05:48 ?        00:00:01 [ksoftirqd/1]
+root          20       2  0 05:48 ?        00:00:00 [kworker/1:0H-kblockd]
+root          21       2  0 05:48 ?        00:00:00 [kdevtmpfs]
+root          22       2  0 05:48 ?        00:00:00 [netns]
+root          23       2  0 05:48 ?        00:00:00 [rcu_tasks_kthre]
+root          24       2  0 05:48 ?        00:00:00 [kauditd]
+root          25       2  0 05:48 ?        00:00:00 [khungtaskd]
+root          26       2  0 05:48 ?        00:00:00 [oom_reaper]
+root          27       2  0 05:48 ?        00:00:00 [writeback]
+root          28       2  0 05:48 ?        00:00:00 [kcompactd0]
+root          29       2  0 05:48 ?        00:00:00 [ksmd]
+root          30       2  0 05:48 ?        00:00:00 [khugepaged]
+root         123       2  0 05:48 ?        00:00:00 [kintegrityd]
+root         124       2  0 05:48 ?        00:00:00 [kblockd]
+root         125       2  0 05:48 ?        00:00:00 [blkcg_punt_bio]
+root         126       2  0 05:48 ?        00:00:00 [tpm_dev_wq]
+root         127       2  0 05:48 ?        00:00:00 [ata_sff]
+root         128       2  0 05:48 ?        00:00:00 [md]
+root         129       2  0 05:48 ?        00:00:00 [edac-poller]
+root         130       2  0 05:48 ?        00:00:00 [devfreq_wq]
+root         131       2  0 05:48 ?        00:00:00 [watchdogd]
+root         135       2  0 05:48 ?        00:00:00 [kswapd0]
+root         136       2  0 05:48 ?        00:00:00 [ecryptfs-kthrea]
+root         139       2  0 05:48 ?        00:00:00 [kthrotld]
+root         140       2  0 05:48 ?        00:00:00 [acpi_thermal_pm]
+root         141       2  0 05:48 ?        00:00:00 [scsi_eh_0]
+root         142       2  0 05:48 ?        00:00:00 [scsi_tmf_0]
+root         143       2  0 05:48 ?        00:00:00 [scsi_eh_1]
+root         144       2  0 05:48 ?        00:00:00 [scsi_tmf_1]
+root         146       2  0 05:48 ?        00:00:00 [vfio-irqfd-clea]
+root         148       2  0 05:48 ?        00:00:00 [ipv6_addrconf]
+root         159       2  0 05:48 ?        00:00:00 [kstrp]
+root         163       2  0 05:48 ?        00:00:00 [kworker/u5:0]
+root         179       2  0 05:48 ?        00:00:00 [charger_manager]
+root         180       2  0 05:48 ?        00:00:04 [kworker/1:1H-kblockd]
+root         227       2  0 05:48 ?        00:00:00 [cryptd]
+root         230       2  0 05:48 ?        00:00:04 [kworker/0:1H-kblockd]
+root         233       2  0 05:48 ?        00:00:03 [irq/18-vmwgfx]
+root         234       2  0 05:48 ?        00:00:00 [ttm_swap]
+root         277       2  0 05:48 ?        00:00:01 [jbd2/sda5-8]
+root         278       2  0 05:48 ?        00:00:00 [ext4-rsv-conver]
+root         321       1  0 05:48 ?        00:00:02 /lib/systemd/systemd-journald
+root         355       2  0 05:48 ?        00:00:00 [loop0]
+root         360       2  0 05:48 ?        00:00:00 [loop1]
+root         362       2  0 05:48 ?        00:00:00 [loop2]
+root         365       2  0 05:48 ?        00:00:00 [loop3]
+root         367       1  0 05:48 ?        00:00:03 /lib/systemd/systemd-udevd
+root         368       2  0 05:48 ?        00:00:00 [loop4]
+root         369       2  0 05:48 ?        00:00:00 [loop5]
+root         370       2  0 05:48 ?        00:00:00 [loop6]
+root         371       2  0 05:48 ?        00:00:00 [loop7]
+root         373       2  0 05:48 ?        00:00:00 [loop9]
+root         374       2  0 05:48 ?        00:00:00 [loop10]
+systemd+     376       1  0 05:48 ?        00:00:02 /lib/systemd/systemd-networkd
+root         398       2  0 05:48 ?        00:00:00 [iprt-VBoxWQueue]
+systemd+     561       1  0 05:48 ?        00:00:04 /lib/systemd/systemd-resolved
+root         648       1  0 05:48 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root         649       1  0 05:48 ?        00:00:00 /usr/sbin/acpid
+avahi        652       1  0 05:48 ?        00:00:00 avahi-daemon: running [labvm.local]
+root         653       1  0 05:48 ?        00:00:00 /usr/sbin/cron -f
+message+     655       1  0 05:48 ?        00:00:03 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         662       1  0 05:48 ?        00:00:00 /usr/sbin/irqbalance --foreground
+root         664       1  0 05:48 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         668       1  0 05:48 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       670       1  0 05:48 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         672       1  0 05:48 ?        00:00:00 /usr/lib/udisks2/udisksd
+root         674       1  0 05:48 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        684     652  0 05:48 ?        00:00:00 avahi-daemon: chroot helper
+whoopsie     785       1  0 05:48 ?        00:00:00 /usr/bin/whoopsie -f
+root         816       1  0 05:48 ?        00:00:02 /lib/systemd/systemd-logind
+kernoops     821       1  0 05:48 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops     823       1  0 05:48 ?        00:00:00 /usr/sbin/kerneloops
+root         828       1  0 05:48 ?        00:00:05 /usr/bin/containerd
+root         846       1  0 05:49 ?        00:00:00 /usr/sbin/ModemManager --filter-policy=strict
+root         935       1  0 05:49 ?        00:00:00 /usr/bin/stunnel4 /etc/stunnel/pt-controller.demo.local.conf
+root         943       1  0 05:49 ?        00:00:00 /bin/bash /opt/API-SIMULATOR/start-API-SIMULATOR.sh
+root         954       1  0 05:49 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         960       1  0 05:49 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         966       2  0 05:49 ?        00:00:00 bpfilter_umh
+root         971     943  0 05:49 ?        00:00:01 /opt/API-SIMULATOR/venv/bin/python api-simulator.py
+root        1121     971  1 05:49 ?        00:02:18 /opt/API-SIMULATOR/venv/bin/python api-simulator.py
+uuidd       1123       1  0 05:49 ?        00:00:02 /usr/sbin/uuidd --socket-activation
+root        1207       1  0 05:49 ?        00:00:00 /usr/sbin/lightdm
+root        1235    1207  6 05:49 tty7     00:09:07 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root        1253    1207  0 05:49 ?        00:00:00 lightdm --session-child 13 16
+devasc      1258       1  0 05:49 ?        00:00:00 /lib/systemd/systemd --user
+devasc      1259    1258  0 05:49 ?        00:00:00 (sd-pam)
+devasc      1275    1258  1 05:49 ?        00:02:01 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+devasc      1276    1253  0 05:49 ?        00:00:02 mate-session
+devasc      1290    1258  0 05:49 ?        00:00:02 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+rtkit       1324       1  0 05:49 ?        00:00:00 /usr/libexec/rtkit-daemon
+devasc      1410       1  0 05:49 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+devasc      1411    1410  0 05:49 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+devasc      1418       1  0 05:49 ?        00:00:00 /usr/bin/VBoxClient --seamless
+devasc      1419    1418  0 05:49 ?        00:00:00 /usr/bin/VBoxClient --seamless
+devasc      1423       1  0 05:49 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+devasc      1425    1423  0 05:49 ?        00:00:17 /usr/bin/VBoxClient --draganddrop
+devasc      1428       1  0 05:49 ?        00:00:00 /usr/bin/VBoxClient --vmsvga-x11
+devasc      1429    1428  0 05:49 ?        00:00:00 /usr/bin/VBoxClient --vmsvga-x11
+devasc      1436    1429  0 05:49 ?        00:00:00 [sh] <defunct>
+devasc      1438    1276  0 05:49 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch mate-session
+devasc      1441    1429  0 05:49 ?        00:00:00 [sh] <defunct>
+devasc      1449    1429  0 05:49 ?        00:00:00 [sh] <defunct>
+devasc      1492    1429  0 05:49 ?        00:00:00 [sh] <defunct>
+devasc      1538    1429  0 05:49 ?        00:00:00 [sh] <defunct>
+devasc      1543    1429  0 05:49 ?        00:00:00 [sh] <defunct>
+devasc      1571    1429  0 05:49 ?        00:00:00 [sh] <defunct>
+devasc      1645    1258  0 05:49 ?        00:00:00 /usr/libexec/gvfsd
+devasc      1650    1258  0 05:49 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/900/gvfs -f -o big_writes
+devasc      1658    1258  0 05:49 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+devasc      1663    1658  0 05:49 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+devasc      1684    1258  0 05:49 ?        00:00:00 /usr/libexec/dconf-service
+devasc      1688       1  0 05:49 ?        00:00:00 gnome-keyring-daemon --start
+devasc      1692    1276  0 05:49 ?        00:00:11 /usr/bin/mate-settings-daemon
+devasc      1694    1258  0 05:49 ?        00:00:02 /usr/libexec/at-spi2-registryd --use-gnome-session
+devasc      1701    1276  0 05:49 ?        00:00:50 marco
+devasc      1717    1276  0 05:50 ?        00:00:08 mate-panel
+devasc      1722    1276  1 05:50 ?        00:01:39 /usr/bin/caja
+devasc      1734    1258  1 05:50 ?        00:01:56 /usr/lib/mate-applets/mate-multiload-applet
+devasc      1735    1258  0 05:50 ?        00:00:30 /usr/lib/mate-panel/wnck-applet
+devasc      1736    1258  0 05:50 ?        00:00:22 mate-menu
+devasc      1748    1276  0 05:50 ?        00:00:01 mate-power-manager
+devasc      1750    1276  0 05:50 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+devasc      1754    1276  0 05:50 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+devasc      1755    1276  0 05:50 ?        00:00:01 /usr/lib/x86_64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
+devasc      1764    1276  0 05:50 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+devasc      1801    1276  0 05:50 ?        00:00:03 mate-maximus
+devasc      1804    1258  0 05:50 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+devasc      1805    1276  0 05:50 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+devasc      1813    1276  0 05:50 ?        00:00:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+devasc      1814    1276  0 05:50 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+devasc      1852    1276  0 05:50 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+devasc      1864    1276  0 05:50 ?        00:00:01 /usr/libexec/evolution-data-server/evolution-alarm-notify
+devasc      1869    1258  0 05:50 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+root        1882       1  0 05:50 ?        00:00:02 /usr/lib/upower/upowerd
+devasc      1887    1258  0 05:50 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+devasc      1892    1258  0 05:50 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+devasc      1897    1258  0 05:50 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+devasc      1924    1258  0 05:50 ?        00:00:00 /usr/libexec/evolution-source-registry
+devasc      1940    1258  0 05:50 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+devasc      1949    1645  0 05:50 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+devasc      1963    1258  0 05:50 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+devasc      2011    1258  0 05:50 ?        00:00:00 /usr/libexec/gvfsd-metadata
+devasc      2048    1429  0 05:50 ?        00:00:00 [sh] <defunct>
+devasc      2050    1429  0 05:50 ?        00:00:00 [sh] <defunct>
+devasc      2088    1429  0 05:50 ?        00:00:00 [sh] <defunct>
+devasc      2226    1645  0 05:52 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.7 /org/gtk/gvfs/exec_spaw/1
+devasc      2255    1645  0 05:52 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.7 /org/gtk/gvfs/exec_spaw/3
+devasc      2456    1429  0 05:57 ?        00:00:00 [sh] <defunct>
+devasc      2458    1429  0 05:57 ?        00:00:00 [sh] <defunct>
+devasc      2498    1429  0 05:57 ?        00:00:00 [sh] <defunct>
+devasc      2580    1429  0 06:01 ?        00:00:00 [sh] <defunct>
+devasc      2582    1429  0 06:01 ?        00:00:00 [sh] <defunct>
+devasc      2622    1429  0 06:01 ?        00:00:00 [sh] <defunct>
+devasc      2882    1429  0 06:22 ?        00:00:00 [sh] <defunct>
+devasc      2884    1429  0 06:22 ?        00:00:00 [sh] <defunct>
+devasc      2922    1429  0 06:22 ?        00:00:00 [sh] <defunct>
+devasc      3089    1429  0 06:28 ?        00:00:00 [sh] <defunct>
+devasc      3091    1429  0 06:28 ?        00:00:00 [sh] <defunct>
+devasc      3131    1429  0 06:28 ?        00:00:00 [sh] <defunct>
+devasc      3253    1429  0 06:29 ?        00:00:00 [sh] <defunct>
+devasc      3255    1429  0 06:29 ?        00:00:00 [sh] <defunct>
+devasc      3295    1429  0 06:29 ?        00:00:00 [sh] <defunct>
+devasc      3711    1429  0 06:35 ?        00:00:00 [sh] <defunct>
+devasc      3713    1429  0 06:35 ?        00:00:00 [sh] <defunct>
+devasc      3756    1429  0 06:35 ?        00:00:00 [sh] <defunct>
+devasc      3834    1429  0 06:36 ?        00:00:00 [sh] <defunct>
+devasc      3836    1429  0 06:36 ?        00:00:00 [sh] <defunct>
+devasc      3876    1429  0 06:36 ?        00:00:00 [sh] <defunct>
+devasc      3918    1429  0 06:36 ?        00:00:00 [sh] <defunct>
+devasc      3920    1429  0 06:36 ?        00:00:00 [sh] <defunct>
+devasc      3964    1429  0 06:36 ?        00:00:00 [sh] <defunct>
+devasc      4054    1429  0 06:41 ?        00:00:00 [sh] <defunct>
+devasc      4056    1429  0 06:41 ?        00:00:00 [sh] <defunct>
+devasc      4096    1429  0 06:41 ?        00:00:00 [sh] <defunct>
+devasc      4197    1429  0 06:43 ?        00:00:00 [sh] <defunct>
+devasc      4199    1429  0 06:43 ?        00:00:00 [sh] <defunct>
+devasc      4241    1429  0 06:43 ?        00:00:00 [sh] <defunct>
+root        4354       1  0 06:43 ?        00:00:03 /usr/libexec/fwupd/fwupd
+devasc      4509    1429  0 06:46 ?        00:00:00 [sh] <defunct>
+devasc      4511    1429  0 06:46 ?        00:00:00 [sh] <defunct>
+devasc      4553    1429  0 06:46 ?        00:00:00 [sh] <defunct>
+devasc      4656    1429  0 06:48 ?        00:00:00 [sh] <defunct>
+devasc      4658    1429  0 06:48 ?        00:00:00 [sh] <defunct>
+devasc      4698    1429  0 06:48 ?        00:00:00 [sh] <defunct>
+devasc      4815    1429  0 06:53 ?        00:00:00 [sh] <defunct>
+devasc      4817    1429  0 06:53 ?        00:00:00 [sh] <defunct>
+devasc      4855    1429  0 06:53 ?        00:00:00 [sh] <defunct>
+devasc      5364    1429  0 06:58 ?        00:00:00 [sh] <defunct>
+devasc      5366    1429  0 06:58 ?        00:00:00 [sh] <defunct>
+devasc      5404    1429  0 06:58 ?        00:00:00 [sh] <defunct>
+devasc      5486    1429  0 07:07 ?        00:00:00 [sh] <defunct>
+devasc      5488    1429  0 07:07 ?        00:00:00 [sh] <defunct>
+devasc      5526    1429  0 07:07 ?        00:00:00 [sh] <defunct>
+devasc      5612    1722 15 07:13 ?        00:08:24 /usr/lib/firefox/firefox
+devasc      5713    5612  0 07:13 ?        00:00:05 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 6318 -prefMapSize 216193 -parentBuildID 20200602222727 -appdir /usr/lib/firefox/browser 5612 true tab
+devasc      5745    5612  0 07:13 ?        00:00:20 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 7154 -prefMapSize 216193 -parentBuildID 20200602222727 -appdir /usr/lib/firefox/browser 5612 true tab
+devasc      6566    5612  9 07:28 ?        00:03:30 /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 9764 -prefMapSize 216193 -parentBuildID 20200602222727 -appdir /usr/lib/firefox/browser 5612 true tab
+devasc      6615    1429  0 07:30 ?        00:00:00 [sh] <defunct>
+devasc      6617    1429  0 07:30 ?        00:00:00 [sh] <defunct>
+devasc      6659    1429  0 07:30 ?        00:00:00 [sh] <defunct>
+devasc      6709    1429  0 07:31 ?        00:00:00 [sh] <defunct>
+devasc      6711    1429  0 07:31 ?        00:00:00 [sh] <defunct>
+devasc      6751    1429  0 07:31 ?        00:00:00 [sh] <defunct>
+root        6890       2  0 07:35 ?        00:00:00 [kworker/1:3-cgroup_destroy]
+devasc      6926    1429  0 07:37 ?        00:00:00 [sh] <defunct>
+devasc      6928    1429  0 07:37 ?        00:00:00 [sh] <defunct>
+root        6977       2  0 07:37 ?        00:00:00 [kworker/0:0-rcu_gp]
+devasc      6983    1429  0 07:37 ?        00:00:00 [sh] <defunct>
+root        7034       2  0 07:39 ?        00:00:00 [kworker/u4:2-events_power_efficient]
+root        7122       1  0 07:41 ?        00:00:00 /usr/sbin/cupsd -l
+root        7123       2  0 07:41 ?        00:00:00 [kworker/1:1-events]
+root        7124       1  0 07:41 ?        00:00:00 /usr/sbin/cups-browsed
+devasc      7183    1429  0 07:42 ?        00:00:00 [sh] <defunct>
+devasc      7185    1429  0 07:42 ?        00:00:00 [sh] <defunct>
+devasc      7221    1429  0 07:42 ?        00:00:00 [sh] <defunct>
+devasc      7295    1722  3 07:42 ?        00:00:48 atril /media/sf_ABJ/Instructor DevNet Associate Lab.pdf
+devasc      7302    1258  0 07:42 ?        00:00:00 /usr/lib/atril/atrild
+devasc      7320    7295  0 07:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitWebProcess 7 27
+devasc      7321    7295  0 07:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitNetworkProcess 8 27
+devasc      7352    1722  0 07:42 ?        00:00:12 atril /media/sf_ABJ/Format Soal dan Validasi UTS Genap 2021-Aplikasi Berbasis Jaringan (1).pdf
+devasc      7373    7352  0 07:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitWebProcess 7 27
+devasc      7374    7352  0 07:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitNetworkProcess 8 27
+devasc      7440    1722  1 07:44 ?        00:00:13 mate-terminal
+devasc      7447    7440  0 07:44 pts/0    00:00:00 bash
+root        7526       2  0 07:46 ?        00:00:00 [kworker/0:1-cgroup_destroy]
+devasc      7573    5612  3 07:49 ?        00:00:36 /usr/lib/firefox/firefox -contentproc -childID 9 -isForBrowser -prefsLen 9805 -prefMapSize 216193 -parentBuildID 20200602222727 -appdir /usr/lib/firefox/browser 5612 true tab
+devasc      7602    5612 16 07:50 ?        00:02:35 /usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 9805 -prefMapSize 216193 -parentBuildID 20200602222727 -appdir /usr/lib/firefox/browser 5612 true tab
+devasc      7711       1  0 07:52 ?        00:00:00 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+devasc      7714       1  0 07:52 ?        00:00:00 /usr/lib/speech-dispatcher-modules/sd_generic /etc/speech-dispatcher/modules/mary-generic.conf
+devasc      7717       1  0 07:52 ?        00:00:00 /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+devasc      7723       1  0 07:53 ?        00:00:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/900/speech-dispatcher/speechd.sock
+devasc      7735    5612  0 07:53 ?        00:00:01 /usr/lib/firefox/firefox -contentproc -childID 12 -isForBrowser -prefsLen 9806 -prefMapSize 216193 -parentBuildID 20200602222727 -appdir /usr/lib/firefox/browser 5612 true tab
+root        7801       2  0 07:56 ?        00:00:00 [kworker/u4:1-events_power_efficient]
+devasc      7812    5612  0 07:56 ?        00:00:03 /usr/lib/firefox/firefox -contentproc -parentBuildID 20200602222727 -prefsLen 9806 -prefMapSize 216193 -appdir /usr/lib/firefox/browser 5612 true rdd
+devasc      7847    1429  0 07:58 ?        00:00:00 [sh] <defunct>
+devasc      7849    1429  0 07:58 ?        00:00:00 [sh] <defunct>
+devasc      7887    1429  0 07:58 ?        00:00:00 [sh] <defunct>
+devasc      7943    1429  0 07:58 ?        00:00:00 [sh] <defunct>
+devasc      7945    1429  0 07:58 ?        00:00:00 [sh] <defunct>
+devasc      7988    1429  0 07:58 ?        00:00:00 [sh] <defunct>
+devasc      8061    1722  1 08:00 ?        00:00:04 pluma /home/devasc/1810530229/proses-1810530229.txt
+root        8076       2  0 08:01 ?        00:00:00 [kworker/u4:0-events_power_efficient]
+devasc      8098    1258  1 08:02 ?        00:00:03 mate-time-admin
+systemd+    8118       1  1 08:02 ?        00:00:02 /lib/systemd/systemd-timesyncd
+root        8140       2  0 08:02 ?        00:00:00 [kworker/0:2-events]
+root        8153       2  0 08:02 ?        00:00:00 [kworker/u4:3]
+root        8162       2  0 08:03 ?        00:00:00 [kworker/1:0-events]
+root        8175       2  0 08:03 ?        00:00:00 [kworker/1:2]
+devasc      8205    7447  0 08:06 pts/0    00:00:00 ps -ef
